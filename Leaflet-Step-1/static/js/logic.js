@@ -54,8 +54,8 @@ d3.json(geoUrl, function(data) {
         fillColor: color,
         color: "black",
         weight: 1,
-        opacity: 0.8,
-        fillOpacity: 0.8
+        opacity: 1,
+        fillOpacity: 1
       }
     }
     var earthquakes = L.geoJSON(earthquakeData, {
